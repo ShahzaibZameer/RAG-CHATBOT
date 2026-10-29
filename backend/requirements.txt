@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+sqlalchemy
+psycopg[binary]
+chromadb
+ollama
+pymupdf
+python-docx

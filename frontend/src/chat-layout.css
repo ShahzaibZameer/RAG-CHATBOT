@@ -1,0 +1,26 @@
+.message-row.user {
+  justify-content: flex-end;
+}
+
+.message-row.user .avatar {
+  order: 2;
+}
+
+.message-row.user .message-content {
+  flex: 0 1 auto;
+  max-width: min(78%, 680px);
+  padding: 10px 14px;
+  border: 1px solid #383d55;
+  border-radius: 14px 4px 14px 14px;
+  background: #1b2030;
+}
+
+.message-row.user .message-label {
+  text-align: right;
+}
+
+@media (max-width: 560px) {
+  .message-row.user .message-content {
+    max-width: 88%;
+  }
+}
